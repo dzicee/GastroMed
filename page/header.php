@@ -120,7 +120,7 @@
                         </li>
 					
                         <li>
-                            <a href="patients.html"><i class="fa fa-wheelchair"></i> <span>Patients</span></a>
+                            <a href="index.php?patients"><i class="fa fa-wheelchair"></i> <span>Patients</span></a>
                         </li>
                       
 				

@@ -7,6 +7,7 @@ class compte
 	public $nom;
 	public $prenom;
 	public $grade;
+	public $code_patient;
 	public $labo;
 	public $gfl;
 	public $exe;

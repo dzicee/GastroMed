@@ -65,9 +65,9 @@ class screen
 				$this->doc = new p_charge($this->user);
 				return (string)include_once('./page/p_charge.php');
 			}
-			else if(isset($_GET['contact'])){
+			else if(isset($_GET['patients'])){
 
-				return (string)include_once('./page/contact.php');
+				return (string)include_once('./page/patients.php');
 			}
 			else if(isset($_GET['co'])){
 
@@ -94,9 +94,9 @@ class screen
 
 				return (string)include_once('./page/add.php');
 			}
-			else if(isset($_GET['perso'])){
+			else if(isset($_GET['patient'])){
 
-				return (string)include_once('./page/infPerso.php');
+				return (string)include_once('./page/patient.php');
 			}
 			else if(isset($_GET['persoa'])){
 
