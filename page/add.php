@@ -1,6 +1,10 @@
 <?php
 
-               
+if( isset($_POST['id'])) {
+    $_SESSION["current_patient"]=$_POST['id'];
+
+    echo'consulte';
+}           
 
 if( isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['age']) && isset($_POST['daten']) && isset($_POST['adresse']) && isset($_POST['fonction']) && isset($_POST['mob1']) && isset($_POST['mob2']) && isset($_POST['sf']) && isset($_POST['sexe'])  && isset($_POST['email']) && isset($_POST['medicaux']) && isset($_POST['chir']) && isset($_POST['famil']) && isset($_POST['autre']) ){
     
@@ -60,17 +64,7 @@ else{  $this->user->sql->request('insert into patient (code_patient,nom,prenom,d
 
 ));
 // create vsriable 
-//verif if exist
-$nn = $this->user->sql->request(
-    'select * from patient where nom=:nom and prenom=:prenom  ',
-    array(
-        'nom' => $nom,
-        'prenom' => $prenom,
 
-    )
-);
-$yy = $nn->fetch();
-$_SESSION["current_patient"]=$yy["Code_patient"];
 
 echo'Success';
 

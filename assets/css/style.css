@@ -64,7 +64,7 @@ body {
 	font-family: 'Rubik', sans-serif;
 	font-size: 0.875rem;
 	color: #666;
-	background-color: #fafafa;
+	background-color: #f1f1f1;
 	overflow-x: hidden;
 	height: 100%;
 }
@@ -111,7 +111,7 @@ a:focus {
 	border-radius: 0;
 	box-shadow: none;
 	padding: 0.469rem 0.75rem;
-	border-color: #eaeaea;
+	border-color: #cecece;
 	font-size: 14px;
 	min-height: 40px;
 }
@@ -822,7 +822,7 @@ textarea.form-control {
 .sidebar {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 	top: 50px;
-	width: 230px;
+	width: 200px;
 	z-index: 1039;
 	background-color: #fff;
 	bottom: 0;
@@ -1121,12 +1121,12 @@ textarea.form-control {
 -----------------------*/
 
 .dash-widget {
-	background-color: #fff;
+	background-color: rgb(211, 211, 211);
 	border-radius: 4px;
 	margin-bottom: 30px;
-	padding: 20px;
+	padding: 22px;
 	position: relative;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
 }
 .dash-widget-bg1 {
 	width: 65px;
@@ -1176,6 +1176,19 @@ textarea.form-control {
 	text-align: center;
 	line-height: 65px;
 	background: #ffbc35;
+	border-radius: 50%;
+	font-size: 40px;
+	height: 65px;
+}
+.dash-widget-bg6 {
+	width: 65px;
+	float: left;
+	color: #fff;
+	display: block;
+	font-size: 50px;
+	text-align: center;
+	line-height: 65px;
+	background: #fb4545;
 	border-radius: 50%;
 	font-size: 40px;
 	height: 65px;
@@ -1382,28 +1395,37 @@ ul.chat-user-total li i.old-users {
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 4px;
-	font-size: 13px;
+	font-size: 16px;
+
 }
 .dash-widget-info > span.widget-title2 {
 	background: #55ce63;
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 4px;
-	font-size: 13px;
+	font-size: 16px;
 }
 .dash-widget-info > span.widget-title3 {
 	background: #7a92a3;
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 4px;
-	font-size: 13px;
+	font-size: 16px;
 }
 .dash-widget-info > span.widget-title4 {
 	background: #ffbc35;
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 4px;
-	font-size: 13px;
+	font-size: 16px;
+	
+}
+.dash-widget-info > span.widget-title6 {
+	background: #fb4545;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 16px;
 }
 .member-panel .contact-list > li:last-child {
 	border-bottom: 0;
@@ -3261,7 +3283,7 @@ html.menu-opened body {
 	color: #333;
 }
 .delete-modal .modal-body .btn.btn-danger {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 .delete-modal .modal-body > h3 {
 	font-size: 16px;

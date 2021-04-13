@@ -2,7 +2,7 @@
 
 <div class="header">
 <div class="header-left">
-    <a href="index-2.html" class="logo">
+    <a href="index.php" class="logo">
         <img src="assets/img/logo.png" width="35" height="35" alt=""> <span>GastroMed</span>
     </a>
 </div>
@@ -93,20 +93,20 @@
             <span><?php echo  'Dr '.$this->user->nom; ?> </span></span>
         </a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="profile.html">My Profile</a>
+            <a class="dropdown-item" href="profile.html">Mon Profile</a>
             <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
             <a class="dropdown-item" href="settings.html">Settings</a>
-            <a class="dropdown-item" href="index.php?logout">Logout</a>
+            <a class="dropdown-item" href="index.php?logout">déconnexion</a>
         </div>
     </li>
 </ul>
 <div class="dropdown mobile-user-menu float-right">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
     <div class="dropdown-menu dropdown-menu-right">
-        <a class="dropdown-item" href="profile.html">My Profile</a>
+        <a class="dropdown-item" href="profile.html">Mon Profile</a>
         <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
         <a class="dropdown-item" href="settings.html">Settings</a>
-        <a class="dropdown-item" href="index.php?logout">Logout</a>
+        <a class="dropdown-item" href="index.php?logout">déconnexion</a>
     </div>
 </div>
 </div>

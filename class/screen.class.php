@@ -98,9 +98,9 @@ class screen
 
 				return (string)include_once('./page/patient.php');
 			}
-			else if(isset($_GET['persoa'])){
+			else if(isset($_GET['search'])){
 
-				return (string)include_once('./page/infPersoA.php');
+				return (string)include_once('./page/search.php');
 			}
 			else if(isset($_GET['pdflsp'])){
 
