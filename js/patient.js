@@ -1,6 +1,6 @@
 $(document).ready(function() {
    
-    $("#addConsultation").click(function() {
+    $("#addConsultationn").click(function() {
       console.log($("#motif").val() );
         $.post(
             './bdd/database.patient.php', // Un script PHP que l'on va créer juste après
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
             function(data) {
                 if (data == 'Success') {
-                    console.log(data+'dd');
+                   // console.log(data);
 
                     Swal.fire({
                         position: 'center',
@@ -32,14 +32,14 @@ $(document).ready(function() {
     });
 
 
-    $("#poids").mouseleave(function(){
+  /*  $("#poids").mouseleave(function(){
         console.log(("#poids").val);
         var poids=parseFloat(("#poids").val);
         var taille=parseFloat(("#taille").val);
         var imc=poids*taille;
         $("#imc").val(imc);
         $("#imc").css("background-color", "pink");
-      });
+      });*/
 
 
 });
