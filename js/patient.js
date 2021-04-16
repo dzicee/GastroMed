@@ -1,7 +1,7 @@
 $(document).ready(function() {
    
     $("#addConsultationn").click(function() {
-      console.log($("#motif").val() );
+      console.log($("#motif").val()+'dd' );
         $.post(
             './bdd/database.patient.php', // Un script PHP que l'on va créer juste après
             {
